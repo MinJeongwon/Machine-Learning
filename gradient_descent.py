@@ -18,8 +18,9 @@ for step in range(300):
 
 	# assign() : assigning new value into 'Variable' tensor
 	W.assign(descent) 
-	
+
 	if step % 10 == 0:
 		print('{:5} | {:10.4f} | {:10.6f}'.format(step, cost.numpy(), W.numpy()[0]))
 
 
+ 
